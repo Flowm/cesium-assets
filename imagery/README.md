@@ -1,4 +1,12 @@
-**NaturalEarthII**
+Imagery
+=======
+
+Imagery from public datasets tiled for use for Cesium.  Also see the [Cesium Imagery Layers Tutorial](http://cesium.agi.com/2013/01/04/Cesium-Imagery-Layers-Tutorial/).
+
+Please credit the orginial dataset when required.
+
+NaturalEarthII
+--------------
 
 ![](images/NaturalEarthII.png)
 
