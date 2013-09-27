@@ -25,7 +25,7 @@ Tiled imagery for use on the Cesium globe.
 
 [![](stars/images/TychoSkymapII.t3_08192x04096.png)](stars/)
 
-Star textures in the cube map formated used by Cesium.
+Star cube map textures for use in Cesium.
 
 [textures](textures/)
 --------
