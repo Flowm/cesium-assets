@@ -8,7 +8,7 @@ Please credit the orginial dataset when required.
 [BlackMarble](BlackMarble/)
 ------------
 
-![](images/BlackMarble.png)
+[![](images/BlackMarble.png)](BlackMarble/)
 
 NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) levels 0-8 in a Tile Map Service (TMS) layout.
 
@@ -29,7 +29,7 @@ var widget = new Cesium.CesiumWidget('cesiumContainer', {
 [NaturalEarthII](NaturalEarthII/)
 --------------
 
-![](images/NaturalEarthII.png)
+[![](images/NaturalEarthII.png)](NaturalEarthII/)
 
 [1:10m Natural Earth II](http://www.naturalearthdata.com/downloads/10m-raster-data/10m-natural-earth-2/) in a Tile Map Service (TMS) layout.  This is reasonable imagery for space applications like the [Cygnus simulation](http://cesium.agi.com/cygnus/) developed by [AGI](http://www.agi.com/).  Some pixelation is noticeable when viewing from satellites in low Earth orbit.
 
