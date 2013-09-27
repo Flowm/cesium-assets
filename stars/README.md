@@ -8,7 +8,7 @@ Please credit the orginial dataset when required.
 [TychoSkymapII.t3_08192x04096](TychoSkymapII.t3_08192x04096/)
 ----------------------------
 
-![](images/TychoSkymapII.t3_08192x04096.png)
+[![](images/TychoSkymapII.t3_08192x04096.png)](TychoSkymapII.t3_08192x04096/)
 
 NASA's 8Kx4K [Tycho Catalog Skymap](http://svs.gsfc.nasa.gov/vis/a000000/a003500/a003572/) converted to a 2Kx2K cube map and JPEG compressed at 80% quality.  This is suitable for space applications running fullscreen, but uses a significant amount of GPU memory.
 
