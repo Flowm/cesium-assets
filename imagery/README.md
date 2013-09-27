@@ -22,6 +22,7 @@ var widget = new Cesium.CesiumWidget('cesiumContainer', {
     credit : 'Black Marble imagery courtesy NASA Earth Observatory'
   })
 });
+```
 
 NaturalEarthII
 --------------
