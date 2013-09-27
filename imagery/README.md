@@ -24,7 +24,7 @@ var widget = new Cesium.CesiumWidget('cesiumContainer', {
 });
 ```
 
-NaturalEarthII
+[NaturalEarthII](NaturalEarthII/)
 --------------
 
 ![](images/NaturalEarthII.png)
