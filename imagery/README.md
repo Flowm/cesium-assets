@@ -14,6 +14,8 @@ NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) le
 
 [Terms of Use](http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html)
 
+**Code Example**
+
 ```javascript
 var widget = new Cesium.CesiumWidget('cesiumContainer', {
   imageryProvider : new Cesium.TileMapServiceImageryProvider({
