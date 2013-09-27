@@ -5,6 +5,24 @@ Imagery from public datasets tiled for use for Cesium.  Also see the [Cesium Ima
 
 Please credit the orginial dataset when required.
 
+BlackMarble
+------------
+
+![](images/BlackMarble.png)
+
+NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) levels 0-8 in a Tile Map Service (TMS) layout.
+
+[Terms of Use](http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html)
+
+```javascript
+var widget = new Cesium.CesiumWidget('cesiumContainer', {
+  imageryProvider : new Cesium.TileMapServiceImageryProvider({
+    url : 'assets/imagery/BlackMarble/',
+    maximumLevel : 8,
+    credit : 'Black Marble imagery courtesy NASA Earth Observatory'
+  })
+});
+
 NaturalEarthII
 --------------
 
@@ -21,24 +39,10 @@ This has levels 0-5; the Natural Earth II imagery included with Cesium ([Source/
 ```javascript
 var widget = new Cesium.CesiumWidget('cesiumContainer', {
   imageryProvider : new TileMapServiceImageryProvider({
-    url : buildModuleUrl('assets/imagery/NaturalEarthII/'),
+    url : 'assets/imagery/NaturalEarthII/',
     maximumLevel : 5,
     credit : 'Imagery courtesy Natural Earth'
   }),
 });
 
 ```
-
-<!--
-
-```javascript
-var widget = new Cesium.CesiumWidget('cesiumContainer', {
-  imageryProvider : new Cesium.TileMapServiceImageryProvider({
-    url : 'http://cesium.agi.com/blackmarble',
-    maximumLevel : 8,
-    credit : 'Black Marble imagery courtesy NASA Earth Observatory'
-  })
-});
-```
-
--->
