@@ -10,7 +10,7 @@ BlackMarble
 
 [![](images/BlackMarble.png)](BlackMarble/)
 
-NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) levels 0-8 in a Tile Map Service (TMS) layout.  This is to large to store in this github repo so it is hosted at `http://cesium.agi.com/blackmarble`.
+NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) levels 0-8 in a Tile Map Service (TMS) layout.  This is too large to store in this github repo so it is hosted at `http://cesium.agi.com/blackmarble`.
 
 [Terms of Use](http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html)
 
