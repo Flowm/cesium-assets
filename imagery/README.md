@@ -5,12 +5,12 @@ Imagery from public datasets tiled for use for Cesium.  Also see the [Cesium Ima
 
 Please credit the orginial dataset when required.
 
-[BlackMarble](BlackMarble/)
-------------
+BlackMarble
+-----------
 
 [![](images/BlackMarble.png)](BlackMarble/)
 
-NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) levels 0-8 in a Tile Map Service (TMS) layout.
+NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) levels 0-8 in a Tile Map Service (TMS) layout.  This is to large to store in this github repo so it is hosted at `http://cesium.agi.com/blackmarble`.
 
 [Terms of Use](http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html)
 
@@ -19,7 +19,7 @@ NASA's [Black Marble](http://earthobservatory.nasa.gov/Features/NightLights/) le
 ```javascript
 var widget = new Cesium.CesiumWidget('cesiumContainer', {
   imageryProvider : new Cesium.TileMapServiceImageryProvider({
-    url : 'assets/imagery/BlackMarble/',
+    url : 'http://cesium.agi.com/blackmarble',
     maximumLevel : 8,
     credit : 'Black Marble imagery courtesy NASA Earth Observatory'
   })
