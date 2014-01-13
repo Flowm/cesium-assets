@@ -4,7 +4,9 @@
 </a>
 </p>
 
-Graphics assets packaged for use with [Cesium](http://cesium.agi.com/), the open-source WebGL virtual globe and map engine.  For the Cesium source code, see its [github repo](https://github.com/AnalyticalGraphicsInc/cesium).  These assets are an extension of the minimal graphics assets [included](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Source/Assets) with Cesium.
+Graphics assets packaged for use with [Cesium](http://cesium.agi.com/).  These assets are an extension of the minimal graphics assets [included](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Source/Assets) with Cesium.
+
+**Cesium version**: These assets are compatible with all versions since [b11](http://cesiumjs.org/downloads.html).
 
 Each directory has a README.md that describes the assets in that directory and how to use them in Cesium with code examples.  Clone the repo and pick and choose what assets to deploy with your app.  Ask questions on the [Cesium forum](http://cesium.agi.com/forum.html).
 
