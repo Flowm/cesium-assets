@@ -41,9 +41,9 @@ This has levels 0-5; the Natural Earth II imagery included with Cesium ([Source/
 
 ```javascript
 var widget = new Cesium.CesiumWidget('cesiumContainer', {
-  imageryProvider : new TileMapServiceImageryProvider({
-    url : 'assets/imagery/NaturalEarthII/',
-    maximumLevel : 5,
+  imageryProvider : new Cesium.createTileMapServiceImageryProvider({
+    url : 'Assets/Textures/NaturalEarthII/',
+    maximumLevel : 2,
     credit : 'Imagery courtesy Natural Earth'
   }),
 });
